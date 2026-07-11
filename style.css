@@ -197,3 +197,98 @@ header {
     color: white;
     border: none;
 }
+
+
+/* Generate a relevant section with AI */
+/* Global Hackathon Challenge */
+.hackathon {
+    background: #EDE9FE;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.hackathon h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hackathon-subtitle {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Stats */
+.hackathon-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.stat-card h3 {
+    font-size: 32px;
+    color: #1D4ED8;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    color: #555;
+}
+
+/* Tracks */
+.tracks-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.tracks-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.track-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.track-card h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.track-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Timeline */
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.timeline-item h4 {
+    color: #1D4ED8;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
