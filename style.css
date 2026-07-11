@@ -29,3 +29,35 @@ a {
     border: none;
     cursor: pointer;
 }
+
+/* Header */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+}
+
+/* Header Content */
+.header-content {
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    place-items: center;
+}
+
+.header-content p {
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.header-content .common-button {
+    width: fit-content;
+    padding: 15px 40px;
+    font-size: 20px;
+}
+
