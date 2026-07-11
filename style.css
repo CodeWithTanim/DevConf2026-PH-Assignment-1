@@ -111,3 +111,89 @@ header {
 .speaker-info p {
     color: #575757;
 }
+
+/* Secure Your Spot */
+.pricing {
+    padding: 80px 8%;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.price-card {
+    background: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.plan {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.price-card h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.time {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.price-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.price-card button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #1D4ED8;
+    background: white;
+    color: #1D4ED8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Middle Card */
+.featured {
+    background: #071b36;
+    color: white;
+    transform: scale(1.05);
+}
+
+.featured .plan,
+.featured .time,
+.featured ul {
+    color: #d1d5db;
+}
+
+.featured button {
+    background: #1D4ED8;
+    color: white;
+    border: none;
+}
